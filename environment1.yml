@@ -1,0 +1,23 @@
+name: deepLearnHWGeneral
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - cudnn
+  - pip
+  - pip:
+    - Keras
+    - Keras-Preprocessing
+    - kiwisolver
+    - matplotlib
+    - numpy
+    - opencv-python
+    - pandas
+    - scipy
+    - tensorboard
+    - tensorboard-plugin-wit
+    - tensorflow
+    - tensorflow-estimator
+    - sklearn
+
