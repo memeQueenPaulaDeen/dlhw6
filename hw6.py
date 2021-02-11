@@ -76,8 +76,8 @@ if __name__ == '__main__':
 
 
 
-    layerSizes = [128,256,512]
-    layerNums = [5,10,20]
+    layerSizes = [512,1024,2048]
+    layerNums = [2,4,6]
     dropouts = [.2,.4,.6]
     optimizers = {'adam':k.optimizers.Adam(),
                   'SDG':k.optimizers.SGD()}
@@ -105,7 +105,7 @@ if __name__ == '__main__':
                     #create the model and do the fitting here
 
                     c10M = createModel(c10X_train, 10, [layerSize for x in range(layerNum)], dropout, optimizer)
-                    c10M.fit(c10X_train, c10Y_train, epochs=150, batch_size=500)
+                    c10M.fit(c10X_train, c10Y_train, epochs=150, batch_size=512)
                     _, accuracy = c10M.evaluate(c10X_test, c10Y_test)
 
                     ###
