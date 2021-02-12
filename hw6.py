@@ -66,12 +66,12 @@ if __name__ == '__main__':
     c100X_train = c100Train[xidx].reshape(c100Train[xidx].shape[0], height * width * cch)
     c100X_train = skp.normalize(c100X_train, norm='l1')
     c100Y_train = c100Train[yidx].reshape(len(c100Train[yidx]))
-    c100Y_train = tf.one_hot(c100Y_train, 10)
+    c100Y_train = tf.one_hot(c100Y_train, 100)
 
     c100X_test = c100Test[xidx].reshape(c100Test[xidx].shape[0], height * width * cch)
     c100X_test = skp.normalize(c100X_test, norm='l1')
     c100Y_test = c100Test[yidx].reshape(len(c100Test[yidx]))
-    c100Y_test = tf.one_hot(c100Y_test, 10)
+    c100Y_test = tf.one_hot(c100Y_test, 100)
 
 
 
@@ -121,7 +121,7 @@ if __name__ == '__main__':
                            'executionTime':modelExecutionTime}
                     c10df = c10df.append(row,True)
 
-    c10df.to_csv('c10Results.csv')
+    # c10df.to_csv('c10Results.csv')
 
     print('Started c100')
 
@@ -158,7 +158,7 @@ if __name__ == '__main__':
                            'executionTime': modelExecutionTime}
                     c100df = c100df.append(row, True)
 
-    c100df.to_csv('c100Results.csv')
+    #c100df.to_csv('c100Results.csv')
 
 
 

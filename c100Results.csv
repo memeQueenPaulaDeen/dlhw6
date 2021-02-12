@@ -1,55 +1,55 @@
 ,layerSize,layerNum,dropout,optimizer,accuracy,executionTime
-0,128,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-1,128,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-2,128,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-3,128,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-4,128,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-5,128,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-6,128,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-7,128,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-8,128,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-9,128,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-10,128,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-11,128,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-12,128,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-13,128,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-14,128,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-15,128,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-16,128,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-17,128,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-18,256,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-19,256,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-20,256,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-21,256,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,-0.000997304916381836
-22,256,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-23,256,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-24,256,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-25,256,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-26,256,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-27,256,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-28,256,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-29,256,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-30,256,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-31,256,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-32,256,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-33,256,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-34,256,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-35,256,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-36,512,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-37,512,5,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-38,512,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-39,512,5,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,-0.0009961128234863281
-40,512,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-41,512,5,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-42,512,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-43,512,10,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-44,512,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-45,512,10,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-46,512,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-47,512,10,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-48,512,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-49,512,20,0.2,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-50,512,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-51,512,20,0.4,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
-52,512,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,0.1,0.0
-53,512,20,0.6,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>,0.1,0.0
+0,512,2,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.24709999561309814,70.17102241516113
+1,512,2,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.018200000748038292,65.18242645263672
+2,512,2,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.13680000603199005,67.59093880653381
+3,512,2,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.015799999237060547,66.9163818359375
+4,512,2,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.09939999878406525,66.25028371810913
+5,512,2,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,64.79467272758484
+6,512,4,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,76.73736763000488
+7,512,4,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.013299999758601189,72.35479235649109
+8,512,4,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,74.48375463485718
+9,512,4,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.011800000444054604,74.03820514678955
+10,512,4,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.02879999950528145,74.32118797302246
+11,512,4,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,74.57451224327087
+12,512,6,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,81.8785228729248
+13,512,6,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.010300000198185444,81.01098227500916
+14,512,6,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,85.76508140563965
+15,512,6,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,79.3741774559021
+16,512,6,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,84.18830418586731
+17,512,6,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,79.10495781898499
+18,1024,2,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.1492999941110611,70.75639581680298
+19,1024,2,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.024000000208616257,70.36527562141418
+20,1024,2,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.17419999837875366,68.31897187232971
+21,1024,2,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.01549999974668026,69.80134677886963
+22,1024,2,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.031599998474121094,71.04726529121399
+23,1024,2,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.011500000022351742,72.51372623443604
+24,1024,4,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,85.20332837104797
+25,1024,4,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.013100000098347664,81.6562910079956
+26,1024,4,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,83.00843977928162
+27,1024,4,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.013199999928474426,81.78777861595154
+28,1024,4,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,85.63108658790588
+29,1024,4,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.01590000092983246,80.31050276756287
+30,1024,6,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,100.36156702041626
+31,1024,6,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.010599999688565731,95.92552924156189
+32,1024,6,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,101.5061559677124
+33,1024,6,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,95.38890981674194
+34,1024,6,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,100.00232410430908
+35,1024,6,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,95.57384753227234
+36,2048,2,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.1451999992132187,82.6009910106659
+37,2048,2,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.019200000911951065,75.90288281440735
+38,2048,2,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.11699999868869781,81.7107162475586
+39,2048,2,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.02879999950528145,78.65654253959656
+40,2048,2,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.05660000070929527,80.32449173927307
+41,2048,2,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.018300000578165054,76.48285365104675
+42,2048,4,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,108.36846780776978
+43,2048,4,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.033799998462200165,99.8848671913147
+44,2048,4,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,109.66061806678772
+45,2048,4,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.015300000086426735,102.08983540534973
+46,2048,4,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,107.96555924415588
+47,2048,4,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,100.60513710975647
+48,2048,6,0.2,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,139.77696418762207
+49,2048,6,0.2,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.023800000548362732,125.17830753326416
+50,2048,6,0.4,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,137.87273025512695
+51,2048,6,0.4,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.015200000256299973,124.5773994922638
+52,2048,6,0.6,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x0000016A8755DC70>,0.009999999776482582,137.7867510318756
+53,2048,6,0.6,<tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x0000016AB02E8790>,0.009999999776482582,127.40856266021729
